@@ -1,0 +1,27 @@
+.hText{
+    display: none;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Secular One', sans-serif;
+    font-size: 150px;
+    align-self: center;
+    color: rgb(35, 34, 34);
+    transform: translateY(100px);
+    text-transform: uppercase;
+
+}
+
+
+.itemH {
+    animation: opacityC 100ms linear forwards;
+}
+
+#rightIN {
+    animation: fromRight 100ms linear forwards;
+}
+#leftIN {
+    animation: fromLeft 100ms linear forwards;
+}
+
+

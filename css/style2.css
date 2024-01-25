@@ -1,0 +1,87 @@
+.progBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    column-gap: 10px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#progBoxRow {
+    width:   350px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+#progress{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    transform: translateX(20px);
+    
+}
+.line{
+    height: 5px;
+    background-color: rgb(36, 36, 40);
+    margin-top: 3px;
+    align-self: center;
+    
+
+}
+
+
+
+
+
+
+
+.progName {
+    font-family: 'Alata', sans-serif;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+
+}
+
+.dummyLine {
+    display: flex;
+    height: 25px;
+    width: 0;
+    
+}
+
+
+
+#pctg {
+    opacity: 0;
+    display: flex;
+    font-size: 12px;
+    position: relative;
+    top: 1px;
+    color: var(--font-color);
+    justify-content: end;
+    justify-content: end;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    animation: loader 800ms linear 5s forwards;
+}
+
+
+
+#langTag {
+    width: fit-content;
+    font-family: 'Manjari', sans-serif;
+    font-size: 15px;
+
+    color: var(--font-color);
+
+}
+
+
+.out {
+    animation: revealReverse 200ms linear forwards;
+}

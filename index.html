@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hi! My name is Anmol. This is a simple space themed Portfolio website of myself. Hope you like it! :3">
+    <title>Harsh-B's Profile page </title>
+    <link type="image/jpg" sizes="16x16" rel="icon" href="src/73867910.jpeg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Acme&family=Alata&family=Alumni+Sans&family=Bebas+Neue&family=BenchNine:wght@300;400&family=Lilita+One&family=Manjari:wght@100;400;700&family=Secular+One&family=Zen+Maru+Gothic&display=swap&family=Questrial&family=Yanone+Kaffeesatz:wght@200;300;400&family=Reenie+Beanie');
+    </style>
+    <link rel="stylesheet" href="css/frames.css" class="rel">
+    <link rel="stylesheet" href="css/style.css" class="rel">
+    <link rel="stylesheet" href="css/style2.css" class="rel">
+    <link rel="stylesheet" href="css/style3.css" class="rel">
+    <link rel="stylesheet" href="css/style4.css" class="rel">
+    <link rel="stylesheet" href="css/style5.css" class="rel">
+    <link rel="stylesheet" href="css/style6.css" class="rel">
+    <link rel="stylesheet" href="css/style7.css" class="rel">
+    <link rel="stylesheet" href="css/style8.css" class="rel">
+    <link rel="stylesheet" href="css/screens.css" class="rel">
+</head> 
+<body>  
+    
+    <div class="container">
+        <img class="starOut" id="vb" src="src/stars.webp" alt="DoraemonGoBack" >
+        <div class="container2" style="position: absolute; display: flex;">
+            <img class="starIn" alt="DoraemonGoBack" id="va" src="src/stars.webp" style="opacity: 0;"></img>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="contact-container">
+            <div class="cc-column1" id="cc-column">
+             <div class="cc-title">Contact</div>
+             <div class="cc-row1" id="cc-row">
+                 <div class="input" id="i1">
+                     <label for="input1" id="cc-label" class="input1-label">Name</label>
+                     <input class="cc-input" type="text" name="name" id="input1" value="Your name" spellcheck="false">
+                 </div>
+                 <div class="input" id="i2">
+                     <label for="input2" id="cc-label" class="input2-label">Email</label>
+                     <input class="cc-input" type="email" name="email" id="input2" value="youremail@xyz.com" spellcheck="false">
+                 </div>
+             </div>
+             <div class="cc-row2" id="cc-row">
+                 <div class="input" id="i3">
+                     <label for="input3" id="cc-label" class="input3-label">Message</label>
+                     <textarea class="cc-input" type="text" name="work" id="input3" rows="5" cols="10">Your Message</textarea>
+                 </div>
+                 <div class="send-c" id="i4">
+                    <div class="input4">Submit</div>
+                 </div>
+
+             </div>
+            </div>
+            <div class="cc-column2" id="cc-column">
+                <div class="cc-0">
+                    <div class="back-button" id="c-back">
+                        <svg class="c-close" id="close">
+                            <line x1="0" y1="0" x2="10" y2="10" stroke="black"  stroke-width="2px" id="closecL1"/>
+                            <line x1="10" y1="0" x2="0" y2="10" stroke="black"  stroke-width="2px" id="closecL2"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="cc-1">
+                    <!-- https://undraw.co/illustrations -->
+                    <svg xmlns="http://www.w3.org/2000/svg" id='man'  viewBox="0 0 623.65002 623.63" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="273.97 426.13 349.73999 444.28 340.95001 338.10001 274.03 343.64001 273.97 426.13" fill="#f3a3a6"/><circle cx="328.17001" cy="294.73999" r="73.76001" fill="#f3a3a6"/><path d="m406.01999,608.08002c-.59.20001-1.17001.38-1.76001.56-.17001.04999-.34.10999-.51001.15997-6.25,1.94-12.59,3.66998-19,5.21002-23.38998,5.64001-47.82001,8.62-72.92999,8.62-7.06,0-14.06-.22998-20.98999-.70001-7.09-.46997-14.10999-1.17999-21.04999-2.13-2.82001-.38-5.62-.78998-8.41-1.25-7.95-1.28998-15.81-2.90002-23.55-4.78998-2.61-.63-5.21001-1.29999-7.8-2.02002-.89-.22998-1.78-.47998-2.66-.72998-3.64999-1.03003-7.28-2.12-10.88-3.28998-.24001-.07001-.49001-.15002-.73-.22998-3.22-1.03998-6.42-2.14001-9.60001-3.28998-2.86-1.03003-5.7-2.10999-8.53-3.22998-6.28999-2.47998-12.47-5.15997-18.55-8.03998l2.34-10.59998,8.11-36.72003,17.61-79.78,17.8-80.62,46.77,1.29999h.01999l2.28.07001,71.13,1.98001,31.12.87,29.76999,218.64996h0l.00003-.00006Z" fill="#dadbdc"/><path d="m475.67999,575.96997c-9.42001,5.87-19.19,11.23999-29.25,16.08002-2.48999,1.20001-5.01001,2.35999-7.54001,3.5-.45001.20001-.89001.40002-1.34.59003-2.17999.96997-4.37,1.90997-6.57999,2.82001h0l-.98999.41998c-.57999.23999-1.16.47998-1.75.71002-7.26999,2.94-14.67001,5.62-22.20001,7.98999-.59.20001-1.17001.38-1.76001.56l-65.23999-166.92999-4.41-11.26999-12.29999-31.48999-4.07999-10.42999,26.92999.42001,31.09.48999c28.22,3.60999,51.62,23.57999,59.63,50.87l39.79999,135.66998h-.01001v-.00006Z" fill="#dadbdc"/><path d="m276.42999,328.44c2.62-.44,5.23999-.89001,7.85999-1.32999.62-14.01001,1.97-29.63998,12.45999-38.95001,5.78-5.13,14.14001-8.12,17.01001-15.29999,2.38-5.95001.16-13.26001,3.48001-18.74001,3.48999-5.77,11.29001-6.8,18.03-7.22,10.54999-.64999,21.29001-1.28999,31.56,1.21001,10.26999,2.50999,20.17999,8.69,24.56,18.31,1.35001,2.95999,2.13,6.14999,2.91,9.31,2.63,10.69,6.66,31.03,6.66,31.03,0,0,.78-4.20999,3-12.39999,4.53-6.48001,10.06-12.45999,12.72-19.89999,3.20001-8.95999,1.79001-18.97-1.35001-27.94-7.13-20.41-23.67001-37.66-44.26999-44.22-20.60999-6.55-40.10001-10.25999-55.5,4.92-2.89001,2.85001-5.48999,6.03-8.79001,8.39-6.10001,4.37-13.89001,5.47-20.76999,8.49001-15.31,6.72-29.14999,22.88-32.60001,39.24001-3.45,16.35999-1.64999,33.31.17,49.94,1.57001,14.34,8.37999,30.32999,20.31999,38.42999.48999-7.34.98001-14.67001,1.47-22.01001l1.06-1.25h.01001v-.01001Z" fill="#2f2e43"/><path d="m317.26001,397.39999l-.72,1.17999-20.13998,32.92001-29.85999,48.84-6.04999,9.89001-22.06,36.07999s-7.16,10.07001-19.24001,22.97998l-.03999.03998c-4.39,4.67999-9.42,9.72998-14.99001,14.79999-.03999.04999-.08.09003-.13.12-6.8,6.20001-14.39999,12.42999-22.62,18.08002-3.38,2.33002-6.86,4.54999-10.42,6.63-.73-.35999-1.45-.73999-2.17-1.10999-34.22-17.77002-64.72-41.71002-90.02-70.34998,26.41-42.17999,78.67001-89.48001,112.33999-117.64999,19.05-15.95001,44.5-21.95999,68.66-16.17999l11.89999,2.84,2.29999.54999,43.26001,10.34h-.00003Z" fill="#dadbdc"/><path d="m411.22,387.25c-12.97-4.67001-47.29999-4.69-62.70001.51001-2.98999,1.01001-4.79999,4.04999-4.28,7.16l.60999,3.69c-1.34-.20001-2.64999-.57999-3.89001-1.14999-3.67001-1.67999-10.89999-3.95999-18.20001-.32001-5.10001,2.54001-8.69,7.32999-9.95001,12.89999-3.01001,13.32001,4.57999,20.69,4.57999,20.69l10.10999,9.48999c8.47,7.94,17.70999,15.01999,27.57999,21.12l.20001.12-3.60001-21.66c-2.03,3.57001-6.62,4.73999-10.10999,2.57999-8.82001-5.45999-23.23001-16.39999-21.48001-28.82001,1.22-8.66,6.03-10.5,10.64999-10.10999,5.17001.44,9.67999,3.69,11.89001,8.38.53,1.12,1.39999,2.04001,2.48001,2.64001l2.60001,1.42001,7.62,45.91c.34,2.06,1.66,3.84,3.53,4.76001,17.92001,8.79001,37.26001,4.23001,43.95001,2.17999,1.53-.47,2.84-1.48001,3.66-2.85999l1.44-2.39001c.5-.82001.79999-1.75.89999-2.70001l6.64999-66.82001c.29001-2.95001-1.45999-5.70999-4.25-6.72h.01007Z" fill="#6c63ff"/><ellipse cx="380.17001" cy="390.79999" rx="30.13" ry="2.84" fill="#dedfe0"/><path id="uuid-add59a10-2c6d-45b5-a06d-26741c0f8cf5-91" d="m319.98001,447.72c16.35001-12.51001,22.82001-31.32001,14.45001-42.01001-8.35999-10.69-28.38998-9.22-44.75,3.29999-6.60001,4.91-11.88,11.37-15.37,18.84l-68.56,53.89001,27.22,32.56,64.70001-56.59c8.19-1.47,15.84-4.89999,22.29999-9.98999h.00998Z" fill="#f3a3a6"/><polygon points="274.62 494.54001 247.5 446.84 148.81 493.28 204.03 564.26001 274.62 494.54001" fill="#dadbdc"/><path d="m215.47,461.91s-71.94,52.67001-69.28,52.37997c2.66-.28998,38.13-19.79999,38.13-19.79999l31.14999-32.58002h0v.00003Z" fill="#272223" isolation="isolate" opacity=".1"/></svg>
+                </div>
+                <div class="cc-2">
+                    <div class="cc-captions">
+                        <div class="cc-caption-text">
+                            <div class="cctext" id="cc-text1">
+                                Hey! It takes a lot of time to build and test projects.
+                            </div>
+                            <div class="cctext" id="cc-text2">A developer does not need anything rather</div>
+                            <div class="cctext" id="cc-text3">an "appreciation" is enough.</div>
+                        </div>
+                        <div class="social-media-icons" >
+                            <div class="social-logo" id="github">
+                                <img src="src/logo/github-mark.webp" alt="" id="github-logo">
+                            </div>
+                            <div class="social-logo" id="instagram">
+                                <div class="insta-box1">
+                                    <div class="insta-circle1">
+                                        <div class="insta-circle-dot"></div>
+                                    </div>
+                                    <div class="insta-circle2">
+                                        <div class="insta-circle-dot2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="social-logo" id="discord">
+                                <img src="src/logo/discord-mark-white.webp" alt="hello-what-doing" id="discord-logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container5" >
+        
+        <div class="child0">
+            <div class="tags-in">
+                <div class="home" id="tags">
+                    Home
+                </div>
+                <div class="services" id="tags">
+                    Services
+                </div>
+                <div class="skills" id="tags">
+                    Skills
+                </div>
+                <div class="contact" id="tags">
+                    Contact
+                </div>
+            </div>
+        </div>
+        <div class="child1">
+            <div class="stars">
+                <img class="s1" src="src/stars.webp" alt="DoraemonGoBack" id="stars">
+                <img class="s2" src="src/stars.webp" alt="DoraemonGoBack" id="stars">
+                <img class="s3" src="src/stars.webp" alt="DoraemonGoBack" id="stars">
+                <div class="s4">
+                    <img  src="src/stars4.webp" alt="DoraemonGoBack">
+                    <svg class="shine">
+                        <circle cx="10" cy="10" r="4"  />
+                    </svg>
+                </div>
+                <img class="s5" src="src/stars.webp" alt="DoraemonGoBack" id="stars">
+            </div>
+            <div class="c1">
+                <div class="dumc1"></div>
+                <div class="moonLayer2">
+                        <svg class="moon2" width="100" height="90">
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,40.1 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,40.2 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,40.3 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,40.4 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,40.5 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,40.6 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,40.7 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,40.8 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,40.8 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,40.9 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,41.1 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,41.2 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,41.3 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,41.4 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,41.5 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,41.6 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,41.7 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,41.8 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,41.9 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,41.10 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,42.1 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,42.2 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,42.4 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,42.5 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,42.6 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,42.7 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,42.8 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,42.8 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,42.8 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,42.9 0 1,0 81.4,53.5"/>
+                            <path  class="layers" id="layers" d="M36.5,4 A42.6,43 0 1,0 81.4,53.5"/>
+                        </svg>
+                    </div>
+                    <div class="moonLayer1">
+        
+                        <svg class="moon"  width="100" height="90" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <circle class="layer1" id="layers" cx="40" cy="44" r="36"/>  
+                            <path class="moonshadow" id="layers" d="M40,11 A32,32 0 1,0 70,30"/>
+                          
+                        </svg>
+                    </div>
+                </div>
+                <div class="c2">
+                    <img src="src/boyF.webp"  alt="goBack" class="boy">
+                    <svg class="land">
+                        <path class="ground" d="M0,50 A500,50 0 0,1 1000,50" fill="none" />
+                        <path class="groundLayer" d="M0,50 A500,30'-'20 0 0,1 1000,50" fill="none"/>
+                    </svg>     
+                </div>
+                <div class="title">
+                    <div class="name">Harsh Baraliya</div>
+                    <div class="tagName">
+                        <div class="tag">Full Stack Developer</div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="child2" >
+                <div class="hText"></div>
+                <div class="caption" id="boxcontent">
+                    <div class="titleCap" id="header">
+                        <div class="capTitle">About Me</div>
+                        <div class="sepLines">
+                            <div class="sepLine" id="meLine" ></div>
+                        </div>
+                    </div>
+                    <div class="myCap" id="boxcontent">
+                        <div class="myCap1" id="caps">
+                            Hello, My name is Harsh geek,  from India. I am passionate about coding and want to explore all the sectors of coding  to their core.
+                        </div>
+                        <div class="myCap2" id="caps">
+                            I  love to Chat, to do Designing (learning). I would also love to help you out in your projects.
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="progBox" id="boxcontent">
+                        <div id="progBoxRow">
+                            <div class="pyProgress" id="progress">
+                                <div class="progName" id="python">
+                                    <div class="python" id="langTag">Python</div>
+                                    <div class="Pypctg" id="pctg" ></div>
+                                </div>
+
+                                <div class="dummyLine" id="dumPy">
+                                    <div class="line" id="pyLine"></div>
+                                </div>
+                            </div>
+                            <div class="jsProgress" id="progress">
+                                <div class="progName" id="js">
+                                    <div class="javascript" id="langTag">Javascript</div>
+                                    <div class="jspctg" id="pctg" ></div>
+                                </div>
+                                    <div class="dummyLine" id="dumJs">
+                                        <div class="line" id="jsLine"></div></div>        
+                            </div>
+                        </div>
+                        <div id="progBoxRow">
+
+                            <div class="jvProgress" id="progress">
+                                <div class="progName" id="java">
+                                    <div class="java" id="langTag">Java</div>
+                                    <div class="jvpctg" id="pctg" ></div>
+                                </div>
+                                <div class="dummyLine" id="dumjv">
+                                        <div class="line" id="jvLine"></div>
+                                </div>
+                            </div>
+                            <div class="cppProgress" id="progress">
+                                    <div class="progName" id="cpp">
+                                        <div class="cpp" id="langTag">C++</div>
+                                        <div class="cpppctg" id="pctg" ></div>
+                                    </div>
+                                    <div class="dummyLine" id="dumCpp">
+                                            <div class="line" id="cppLine"></div> </div>
+                            </div>
+                        </div>
+                        
+                </div>
+                
+            </div>
+            <div class="child4" id="boxes">
+                <div class="skillTitle" id="header">
+                    <div class="capTitle">Skills  </div>
+                    <div class="sepLines">
+                        <div class="sepLine" id="skillLine"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skillInfo-card" id="skill-card">
+                       <div class="skill-row1" id="skill-row">
+                           <div class="skill1" id="skill">
+                             <div class="skill-card-title" id="sc1"><div class="skilltext" id="sk1">Programming</div></div>
+                             <div class="skill-card-caption">I am quite good at plenty of languages, database. I  love to understand how the internet works. Why wouldn't anyone in this world love to play with computers?</div>
+                           </div> 
+                           <div class="skill2" id="skill">
+                                <div class="skill-card-title" id="sc2"><div class="skilltext" id="sk2">Graphics</div></div>
+                                <div class="skill-card-caption">I love to play with my creativity on paper then mix it with AI.<br>When machines and humans start to work together <3. </div>
+                           </div>
+
+                       </div> 
+                       <div class="skill-row2" id="skill-row">
+                           <div class="skill3" id="skill">
+                                <div class="skill-card-title" id="sc3"><div class="skilltext" id="sk3">Gaming</div></div>
+                                <div class="skill-card-caption">After programming, Gaming is my favorite pastime.</div>
+                           </div>
+                           <div class="skill4" id="skill">
+                                <div class="skill-card-title" id="sc4">
+                                    <div class="skilltext" id="sk4">Chattering</div>
+                                </div>
+                                <div class="skill-card-caption">Yes, talking rubbish is one of my top skills. I would also love to talk with you on a project ;P.</div>
+                           </div>
+
+                       </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="child3" id="boxes">
+                <div class="serviceTitle" id="header">
+                    <div class="capTitle">Service  </div>
+                    <div class="sepLines">
+                        <div class="sepLine" id="serviceLine"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="proj1 app" id="card" >
+                        <div id="cardDmbg" class="serviceCard">
+                            <div class="back-button" id="appBack">
+                                <svg class="close" id="close">
+                                    <line x1="0" y1="0" x2="10" y2="10" stroke="black"  stroke-width="2px" id="closeL1"/>
+                                    <line x1="10" y1="0" x2="0" y2="10" stroke="black"  stroke-width="2px" id="closeL2"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="laptop" id="icon" style=" display: flex; flex-direction: column;row-gap: 10px;" >
+                                <div class="lapBox" ></div>
+                                <div class="lapLine" ></div>
+                            </div>
+                            <div class="tApp" id="cardTitle">Apps</div>
+                        </div>
+                        <div class="cardCaption" >
+                                <div class="p-caption" >I love to build, design apps.</div>
+                                <div class="cardKeywords">
+                                    <div class="ck-row1" id="ck-row">
+                                        <div class="ck1" id="ck">Ui/Ux</div>
+                                        <div class="ck2" id="ck">Backend</div>
+                                    </div>
+                                </div>
+                        </div>
+                        
+                    </div>
+                    <div class="proj2 website" id="card">
+                        <div id="cardDmbg" class="serviceCard">
+                            <div class="back-button" id="webBack">
+                                <svg class="close" id="close">
+                                    <line x1="0" y1="0" x2="10" y2="10" stroke="black"  stroke-width="2px" id="closeL1"/>
+                                    <line x1="10" y1="0" x2="0" y2="10" stroke="black"  stroke-width="2px" id="closeL2"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="website" id="icon" style=" display: flex; flex-direction: column;row-gap: 10px;" >
+                                <svg class="internet">
+                                    
+                                    <line x1="0" y1="20" x2="96" y2="20"   id="internet-draw"/>
+                                    <line x1="0" y1="40" x2="96" y2="40"  id="internet-draw"/>
+                                    <line x1="0" y1="60" x2="96" y2="60"  id="internet-draw"/>
+                                    <path d="M40,0 A15,20 0 1,0 40,80" fill="none"  id="internet-draw"/>
+                                        <path d="M40,0 A5,20 0 1,0 40,80" fill="none"  id="internet-draw"/>
+                                        <path d="M40,0 A15,20 0 1,1 40,80" fill="none"  id="internet-draw"/>
+                                        <path d="M40,0 A5,20 0 1,1 40,80" fill="none"  id="internet-draw"/>
+                                    </svg>
+                                    
+                                </div>
+                                <div class="tWebsite" id="cardTitle">Website</div>
+                            </div>
+                            <div class="cardCaption " >
+                                <div class="p-caption" >I love innovating with both the frontend and backend.</div>
+                                <div class="cardKeywords">
+                                    <div class="ck-row1" id="ck-row">
+                                        <div class="ck1" id="ck">Ui/Ux</div>
+                                        <div class="ck2" id="ck">Backend</div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="proj3 graphics-design" id="card" >
+                        <div id="cardDmbg" class="serviceCard">
+                            <div class="back-button" id="gBack">
+                                <svg class="close" id="close">
+                                    <line x1="0" y1="0" x2="10" y2="10" stroke="black"  stroke-width="2px" class="closeL1" id="closeL1"/>
+                                    <line x1="10" y1="0" x2="0" y2="10" stroke="black"  stroke-width="2px" class="closeL2" id="closeL2"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="graphics" id="icon" style=" display: flex; flex-direction: column;row-gap: 10px;" >
+                                <svg class="pen" >
+                                    <path class="penLogo" d="M29.6,64.8 L50.4,64.8  M30,65 L14.8,39.6 M14.8,40.23 L38,10 " stroke="black" fill="none" id="penL1"/>
+                                    <path class="penLogo"  d="M37.9,10.3 L38,39.6 M38.3,39.1 A2,2 0 1,0 39.7,39 M40,39.4 L40,10 M40,10 L65.8,40.5" id="penL2" fill="none" stroke="black"/>
+                                    <path class="penLogo" d="M50,65 65.9,40" stroke="black" fill="none" id="penL3"/>
+                                    <path class="penLogo" id="penBox" d="M29.6,68 L50.4,68 L50.4,75 L29.6,75 L29.7,67.5" fill="none" stroke="black"/>
+                                </svg>
+                            </div>
+                            <div  class="tgraphic" id="cardTitle">Graphics</div>
+
+                        </div>
+                        <div class="cardCaption" >
+                                <div class="p-caption card-caption" >Mixing our creativity on paper with artificial intelligence is too much fun.</div>
+                                <div class="cardKeywords">
+                                    <div class="ck-row1" id="ck-row">
+                                        <div class="ck1" id="ck">Art</div>
+                                        <div class="ck2" id="ck">Ui/Ux</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="footer">
+                <div class="attribs">
+                    <a target="_blank" class="contribs"   id="attrib_1" href='https://pngtree.com/freepng/boy-back-view_6694254.html'>Boy</a>
+                    <a target="_blank" class="contribs" id="attrib_2" href="https://lovepik.com/images/png-stars.html">Normal Stars</a>
+                    <a target="_blank" class="contribs" id="attrib_3" href="https://www.vecteezy.com/free-vector/shining-star">Shining Star</a>
+                </div>
+                <a class="credit" target="_blank" href="https://github.com/aka-shinu/aka-shinu.github.io">
+                    <div class="credit-text" id="normal">made With  </div>
+                    <div class="credit-text" id="heart">❤️</div>
+                    <div class="credit-text" id="normal">by HARSH</div>
+                </a>
+            </div>
+                
+    </div>
+    <div class="msgContainer" id="error" >
+        <div class="error">
+            <div class="msg">404</div>
+            <div class="error-msg" id="error-msg"></div>
+        </div>
+    </div>
+    <div class="loader">
+        <div class="loading">
+            <div id="loading">
+                <div class="rect1" id="rect"></div>
+                <div class="rect2" id="rect"></div>
+                <div class="rect3" id="rect"></div>
+                <div class="rect4" id="rect"></div>
+                <div class="rect5" id="rect"></div>
+                <div class="rect6" id="rect"></div>
+                <div class="rect7" id="rect"></div>
+                <div class="rect8" id="rect"></div>
+            </div>
+        </div>
+    </div>
+
+
+            <script src="js/script.js"></script>
+            <script src="js/script2.js"></script>
+            <script src="js/script3.js"></script>
+            <script>
+                function getGtr(t){
+                    return t.split(",")
+                }
+                function operation(t){
+                    
+                    var t2 = t.split("'")
+                    if (t2.length == 1){
+                        return ''
+                    }
+                    return t2.slice(1).join(" ")
+                }
+                function adjustSvg(g, svg){
+                    var w_ =  (svg.width())
+                    var h_ = svg.height()
+                    var gt = g.attr("d").split(" ")
+                    var m =getGtr(gt[0].slice(1))
+                    var gtr  = getGtr(gt[1])
+                    var gtr2 = getGtr(gt[gt.length-1])
+                    return "M" +  eval(0 + operation(m[0]) ) + "," + eval(h_ + operation(m[1])) + " A" +  eval(w_/2 + operation(gtr[0].slice(1,gtr[0].length))) +  "," +  eval(h_ + operation(gtr[1])) + " " + gt.slice(2, gt.length-1).join(" ") + " " + eval(w_ + operation(gtr2[0])) + "," +  eval(h_ + operation(gtr2[1]))
+ 
+                }
+
+                var svg = [$(".land")]
+                for (var sv in svg){
+                    var sv2 = svg[sv]
+                    var childrens = sv2.children()
+                    for (var c in childrens){
+                        try{
+                            var g = $("." + childrens[c].className.baseVal)
+                        }
+                        catch(err){
+                            break
+                        }
+                        g.attr("d", adjustSvg(g, sv2))
+                        if ((c+1) == (childrens.length)){
+                            break
+                        }
+                    }
+                }
+
+                </script>
+        </body>
+    </html>

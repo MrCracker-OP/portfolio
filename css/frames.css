@@ -1,0 +1,226 @@
+@keyframes expand {
+
+    0% {
+        width: 300px;
+    }
+    100% {
+        width: 1000px;
+    }
+}
+
+@keyframes loader {
+    
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+
+    }
+}
+
+@keyframes screenLoader {
+    
+    from {
+        opacity: .8;
+        transform: scale(1) translateY(0);
+    }
+    to {
+        transform-origin: center;
+        opacity: 1;
+        transform: scale(1.5) translateY(-5px);
+        }
+}
+
+
+
+@keyframes slideIN {
+    0%{ 
+        right:100%
+    }
+    100% {
+        right: 0;
+    }
+}
+
+
+
+@keyframes slideOUT {
+    0% {
+        right: 0%;
+
+    }
+    100% {
+        right: 100%;
+    }
+}
+
+
+
+@keyframes fill {
+    from {
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+
+@keyframes opacityC {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+    
+}
+
+
+@keyframes fromRight {
+    from {
+        transform: translateX(200px);
+    }
+    to {
+        transform: translate(0);
+    }
+}
+@keyframes fromLeft {
+    from {
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translate(0);
+    }
+}
+
+
+
+@keyframes BoyAnimation {
+    from {
+        transform: translateY(16%);
+    }
+    to {
+        transform: translateY(15%);
+    }
+    
+}
+
+
+
+@keyframes shine {
+    from {
+        opacity: 0;
+        transform: translateY(43.8px) translateX(84px)  scale(0);
+    }
+    to {
+        transform:translateY(43.8px) translateX(84px)  scale(0.9);
+        opacity: 1;
+    }
+    
+}
+
+
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes revealReverse {
+    from {
+        opacity: 1;
+        
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+@keyframes revealWithTranslateY {
+    from {
+        opacity: 0;
+        top: 5px;
+}
+    to {
+        opacity: 1;
+        top:0
+    }
+}
+
+
+
+@keyframes iconUp {
+    from {
+        
+        transform: scale(1);
+    }
+    to {
+        transform: translateY(-100px) scale(1.2) ;
+        height: 22%;
+        box-shadow: 2px 2px 15px  rgb(23, 23, 23);
+    }
+}
+
+
+@keyframes iconDown {
+      from {
+        transform: translateY(-100px) scale(1.2) ;
+      }
+      to {
+        transform: translateY(0px ) scale(1) ;
+
+      }
+
+}
+
+@keyframes widthInc {
+     to {
+        width: 50%;
+        background-color: rgb(37, 37, 37);
+        
+     }
+}
+
+
+
+@keyframes rotate0 {
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+
+@keyframes starOut {
+    to {
+        transform: translateX(100vw);
+
+    }
+}
+
+@keyframes starIn {
+    from {
+        transform: translateX(-100vw);
+    }
+    to {
+        transform: translateX(100vw);
+    }
+    
+}
+@keyframes heartAnimation {
+    from {
+        transform: scale(.7);
+    }
+    to {
+        transform: translateY(-2px) scale(.8);
+    }
+    
+}

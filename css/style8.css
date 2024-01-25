@@ -1,0 +1,385 @@
+
+.container4 {
+    display: none;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background: rgba(22, 22, 23, 0.315);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    z-index: 20;
+}
+.container4-animate {
+    display: flex;
+    animation: reveal 100ms linear forwards;
+}
+.contact-container {
+    width: calc(calc( 100vw * 70) / 100);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#cc-column {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cc-column1 {
+    row-gap: 4%;
+    background-color: rgb(19, 17, 37);
+    width: 60%;
+}
+
+
+.cc-row1,.cc-row2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    column-gap: 8%;
+    z-index: 1;
+    transform: scale(.7);
+}
+.cc-row2{
+    width: 100%;
+    row-gap: 40%;
+    flex-direction: column;
+}
+
+
+
+.input {
+    font-size: 80%;
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    row-gap: 15%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cc-input {
+    position: relative;
+}
+
+#i3 {
+    
+    width: 100%;
+}
+
+.cc-input {
+    font-family: 'Manjari', sans-serif;
+    font-weight: 100;
+    color:white;
+    font-size: 150%;
+    border-width: 0 0 1px 0;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255, 250, 251, 0.251);
+    background-color: inherit;
+}
+.cc-input:focus {
+    outline: none;
+    padding-left: 4%;
+}
+
+#input3 {
+    resize: none;
+    height: 20vh;
+}
+
+
+.send-c {
+    font-family: 'Manjari', sans-serif;
+    font-weight: 400;
+    color:rgba(63, 89, 144, 0.772);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    opacity: .6;
+    justify-content: center;
+}
+.send-c:hover {
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.1);
+}
+.cc-title {
+    display: flex;
+    width:  80%;
+    align-self: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 230%;
+}
+
+
+
+#cc-label{
+    font-size: 150%;
+    font-family: 'Manjari', sans-serif;
+    font-weight: 700;
+    color: rgb(216, 212, 212);
+    opacity: .4;
+
+}
+
+.cc-column2{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(171, 169, 169);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.cc-0 {
+    position: relative;
+    bottom:  2%;
+    width: 100%;
+    height: 40px;
+}
+#c-back {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.c-close {
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    opacity: .2;
+    transform: scale(.9);
+}
+
+
+.c-close:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+#closecL1, #closecL2 {
+    stroke: rgb(38, 38, 38);
+}
+#closecL1, #closecL2 {
+    transform-box: fill-box;
+    transform-origin: center;
+}
+#closecL1 {
+    transform: rotate(315deg);
+
+}
+#closecL2 {
+    transform: rotate(226deg);
+}
+
+.cc-1,.cc-2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+.cc-1 {
+    position: relative;
+}
+.cc-2 {
+    height: 40%;
+}
+
+
+#man {
+    width: 40vh;
+    height: 40vh;
+    background-color:  rgb(21, 19, 39);
+    border-radius: 100%;
+}
+
+.social-media-icons {
+   display: flex;
+   justify-content: center;
+   width: 50vh;
+   height: 60%;
+   position: relative;
+   bottom: 5%;
+   column-gap: 5px;
+   transform-origin: center;
+   transform: scale(.5);
+
+   
+}
+.social-logo {
+    width: 25%;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.466);
+}
+
+.social-logo:hover{
+    cursor: pointer;
+}
+#instagram:hover,#github:hover {
+    transform: scale(1.1);
+
+}
+#instagram {
+    padding-right: 2%;
+    padding-top: .8%;
+    height: 100%;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(36, 41, 47)
+    
+    
+}
+
+/* #instagram:before{
+    position: absolute;
+    left: 75%;
+    top: 20%;
+    content: "";
+    border: 2px solid red;
+    width: 10%;
+
+} */
+.insta-box1 * {
+    background-color: white;
+}
+.insta-box1 {
+    width: 80%;
+    height: 80%;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    z-index: 20;
+    
+}
+
+.insta-circle-dot {
+    width: .7vw;
+    height: .7vw;
+    border-radius: 100%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: unset;
+    background-color: rgb(36, 41, 47);
+    
+}
+.insta-circle1 {
+    height: 50%;
+    width: 100%;
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top-left-radius: 3vh;
+    border-top-right-radius: 3vh;
+    border-bottom: unset;
+
+}
+
+.insta-circle2{
+    height: 50%;
+    width: 100%;
+    border-bottom-right-radius: 3vh;
+    border-bottom-left-radius: 3vh ;
+    border-top: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.insta-circle-dot2 {
+    width: 40%;
+    height: 90%;
+    border-radius: 100%;
+    margin-bottom: 45%;
+    position: relative;
+    border-width: .3vw;
+    border: unset;
+    background-color: rgb(36, 41, 47);
+}
+
+
+#discord, #github {
+    display: flex;
+    
+}
+
+#discord:after {
+    content: "";
+    width: 25%;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    background-color: rgb(36, 41, 47);
+} 
+
+
+#discord:hover:after{ 
+    transform: scale(1.1);
+}
+#discord-logo:hover {
+    transform: scaleX(.9) scaleY(.8);
+}
+#discord-logo,#github-logo {
+    align-self: flex-start;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    z-index: 1;
+    transform: scaleX(.8) scaleY(.7);
+}
+
+#github-logo {
+    transform: scale(1.1);
+}
+
+.cc-2 {
+    position: relative;
+    justify-content: start;
+    top: 2%;
+}
+
+
+.cc-captions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    height: 50%;
+}
+
+.cc-caption-text{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    font-family: 'Manjari', sans-serif;
+    font-weight: 100;
+    height: 100%;
+    opacity: .8;
+    align-items: center;
+    color: rgb(24, 22, 37);
+    
+}
+
+
+.cctext {
+    font-size: 90%;
+}

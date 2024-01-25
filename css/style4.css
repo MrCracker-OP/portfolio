@@ -1,0 +1,224 @@
+.container5 {
+    color: white;
+    position: absolute;
+    width: fit-content;
+    height: 100vh;
+    z-index: 10;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: 1px 0 20px rgb(15, 14, 14);
+}
+
+
+
+.child1, .child2, .child3, .child4, .child0, .footer{
+    width: calc(calc( 100vw * 65.11) / 100);
+}
+
+.child1 {
+    display: flex;
+    height: calc(calc( 100vh * 54.2) / 100);
+    background-color: var(--sky-color);
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+
+    
+}
+
+
+.dumc1 {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-20px);
+    position: absolute;
+    z-index: 15;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+}
+.dumc1:hover {
+    cursor: pointer;
+}
+#tags:hover {
+    cursor: pointer;
+}
+.c1 {
+    width: max-content;
+    height: max-content;
+    inset: 30px 40px;
+    position: relative;
+    display: flex;
+    
+    transition: transform 200ms linear;
+}
+
+.moon {
+    background-color: inherit;
+    transform: scale(1.2);
+    
+    z-index: 2;
+}
+
+.layer1 {
+    fill: var(--moon-color);
+    z-index: 2;
+}
+
+
+#layers {
+    position: relative;
+    transform: translateX(5px);
+    z-index: 2;
+}
+
+.moonshadow {
+    fill:none;
+    stroke:  rgb(249, 243, 243);
+    stroke-width: 5;
+    filter: drop-shadow(0 0 3px white);
+    z-index: 2;
+}
+
+.layers {
+    fill: none;
+    stroke:  rgba(234, 226, 226, 0.922);
+}
+
+
+
+.stars {
+     position: absolute;
+     display: flex;
+     width: 100%;
+     z-index: 4;
+     transform: translateY(-50px);
+     
+}
+    
+#stars {
+    position: relative;
+    height:  calc(
+        calc(calc(calc(100vh * 50) / 100) * 62.5) / 100
+    );
+     width: calc(
+        calc(100% * 30) / 100
+    );
+    z-index: 0;
+    transform: rotate(180deg) ;
+}
+
+
+.s4 {
+    display: flex;
+    height: 250px;
+    width: 300px;
+    transform: translateX(-10px) translateY(40px) scale(.5) rotate(120deg) ;
+    position: absolute;
+}
+
+
+
+
+
+.s5 {
+    position: relative;
+    right: 10px;
+}
+
+
+
+.shine {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    fill: none;
+    opacity: 0;
+    stroke: white;
+    stroke-width: 5px;
+    filter: drop-shadow(0 0 30px white);
+    animation: shine 2s 2s linear alternate-reverse forwards;
+}
+
+.layer1, .layers {
+    position: relative;
+    z-index: 10;
+} 
+
+
+
+.moonLayer1, .moonLayer2 {
+    width: fit-content;
+    height: fit-content;
+}
+.moonLayer1{
+    z-index: 1;
+}
+
+.moonLayer2{
+    z-index: 2;
+    position: absolute;
+    transform: translateY(-3px);
+}
+
+
+
+.c2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    width: 100%;
+    height: fit-content;
+}
+
+.land {
+    width: 100%;
+    height:  calc(calc( 100vh * 5) / 100);
+}
+.ground {
+    fill: rgb(93, 63, 46)
+}
+
+.groundLayer {
+    fill: rgb(90, 55, 36);
+}
+
+.boy {
+    height: 200px;
+    width: 150px;
+
+    transform: translateY(16%);
+    align-self: center;
+    transform-origin: center center;
+    animation: BoyAnimation 1.5s linear infinite alternate-reverse;
+}
+
+
+
+.title {
+    font-family: 'Alumni Sans', sans-serif;
+    position: absolute;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    transform: translateX(650px )  translateY(calc(100% * 2));
+    text-transform: uppercase;
+    font-size: 200%;
+    flex-direction: column;
+}
+
+.tagName {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+.tag {
+    background-size: 200px;
+    opacity: 0;
+    font-size: 25%;
+    align-self: center;
+    font-family: "Manjari", sans-serif;
+    animation: reveal 800ms 4s linear forwards;
+}
+
